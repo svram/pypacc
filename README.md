@@ -7,6 +7,22 @@ A Python utility to read the contents of a PAC/FPC Closed Caption (subtitle) fil
 Usage
 =====
 
+Additions by Vikram Bahl (23/02/2019):
+
+Use the following method to generate the SRT subtitle file:
+
+1) Enter the following line in bash (ensure directory paths are correct):
+  
+  ```
+  python readPac.py --outformat=SRT FNAME.PAC --encoding=utf-8 >> FNAME.srt
+
+  ```
+
+  where FNAME is the name of the PAC file. It is important that the name of
+  the output srt file is the same as  the name of the video file.
+
+2) Make sure ```cat FNAME.srt``` displays the subtitles in the right format
+
 Takes a PAC/FPC file as an argument with specific encoding as an optional argument.
 
 ```
