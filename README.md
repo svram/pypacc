@@ -23,6 +23,8 @@ Use the following method to generate the SRT subtitle file:
 
 2) Make sure ```cat FNAME.srt``` displays the subtitles in the right format
 
+-------------------------- xxxx -------------------------- 
+
 Takes a PAC/FPC file as an argument with specific encoding as an optional argument.
 
 ```
