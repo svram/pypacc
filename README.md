@@ -6,7 +6,7 @@ A Python utility to read the contents of a PAC/FPC Closed Caption (subtitle) fil
 
 Usage
 =====
-
+*START*
 Additions by Vikram Bahl (23/02/2019):
 
 Use the following method to generate the SRT subtitle file:
@@ -23,6 +23,7 @@ Use the following method to generate the SRT subtitle file:
 
 2) Make sure ```cat FNAME.srt``` displays the subtitles in the right format
 
+*END*
 -------------------------------------------------------------------------------------------------------------------  
 
 Takes a PAC/FPC file as an argument with specific encoding as an optional argument.
